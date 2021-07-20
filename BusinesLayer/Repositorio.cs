@@ -6,9 +6,8 @@ namespace BusinesLayer
 {
     public sealed class Repositorio
     {
-        public List<Ordenes> OrdenesGeneral { get; set; } = new List<Ordenes>();
-        public List<Ordenes> OrdenesPorMesas { get; set; } = new List<Ordenes>();
-        public int estado { get; set; } = 0;
+        public List<Orden> OrdenesGeneral { get; set; } = new List<Orden>();
+        public List<Orden> OrdenesPorMesas { get; set; } = new List<Orden>();
 
         public static Repositorio Instancia { get; } = new Repositorio();
 
